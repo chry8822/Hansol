@@ -1,0 +1,445 @@
+body {
+  min-width: 1600px;
+}
+header {
+  height: 81px;
+  text-align: center;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  padding: 14px 0 0;
+}
+header h1 a {
+  display: block;
+  width: 110px;
+  height: 48px;
+  color: transparent;
+  background: url(./sp_com.png) no-repeat -300px 0;
+}
+header .LNB li {
+  display: inline-block;
+  padding: 0 0 0 35px;
+}
+header .LNB li a {
+  display: block;
+  height: 81px;
+  padding: 0 35px;
+  font-size: 17px;
+  color: #333;
+  line-height: 81px;
+}
+header .LNB li a span {
+  position: relative;
+}
+header .LNB li a:hover span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -9px;
+  display: block;
+  height: 1px;
+  background: #2d5b79;
+}
+header .LNB li a:hover {
+  color: #2d5b79;
+  font-weight: bold;
+}
+header .Spot {
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+header .Spot li {
+  position: relative;
+  float: left;
+}
+header .Spot li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 7px;
+  background: #ccc;
+  transform: translateY(-50%);
+}
+header .Spot li a {
+  display: block;
+  height: 81px;
+  padding: 0 10px;
+  line-height: 81px;
+}
+header .Spot li:last-child a {
+  padding-right: 0;
+}
+header .Spot li:first-child:after {
+  display: none;
+}
+
+.visual {
+  padding: 0 50px;
+  position: relative;
+}
+
+.visual .con > div {
+  height: 640px;
+}
+
+.visual .con .slid {
+  background: url(./bg_main00.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  font-size: 32px;
+  line-height: 46px;
+}
+.visual .con .slid p {
+  font-size: 20px;
+  padding: 19px 0 0;
+  line-height: 100%;
+}
+.visual .con .slid .text {
+  position: absolute;
+  left: 50%;
+  top: 175px;
+}
+
+.product a {
+  display: block;
+  color: #001829;
+  font-size: 15px;
+}
+.product a:hover {
+  color: #2d5b79;
+  font-weight: bold;
+}
+.product a:before {
+  margin: 0 0 26px;
+  content: "";
+  width: 64px;
+  height: 52px;
+  display: block;
+  background: url(./sp_com.png) no-repeat;
+}
+.product ul {
+  text-align: center;
+  padding: 46px 0 41px;
+  font-size: 0;
+}
+.product li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 55px;
+}
+.product li:nth-child(1) a:before {
+  background-position: -3px -118px;
+}
+.product li:nth-child(2) a:before {
+  background-position: -75px -118px;
+}
+.product li:nth-child(3) a:before {
+  background-position: -148px -118px;
+}
+.product li:nth-child(4) a:before {
+  background-position: -219px -118px;
+}
+.product li:nth-child(5) a:before {
+  background-position: -292px -118px;
+}
+.product li:nth-child(6) a:before {
+  background-position: -364px -118px;
+}
+
+.product li:nth-child(1) a:hover:before {
+  background-position: -3px -184px;
+}
+.product li:nth-child(2) a:hover:before {
+  background-position: -75px -184px;
+}
+.product li:nth-child(3) a:hover:before {
+  background-position: -148px -184px;
+}
+.product li:nth-child(4) a:hover:before {
+  background-position: -219px -184px;
+}
+.product li:nth-child(5) a:hover:before {
+  background-position: -292px -184px;
+}
+.product li:nth-child(6) a:hover:before {
+  background-position: -364px -184px;
+}
+
+.magazine {
+  position: relative;
+  background: #dfd9d1;
+  height: 670px;
+  overflow: hidden;
+}
+.magazine h2 {
+  font-size: 28px;
+  color: black;
+  padding: 50px 0 16px;
+  text-align: center;
+  line-height: 100%;
+}
+.magazine p {
+  line-height: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+.magazine .slide_box > div {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 1180px;
+  height: 430px;
+  top: 150px;
+}
+.magazine .slide_box > div:nth-child(1) {
+  margin-left: -1280px;
+}
+.magazine .slide_box > div:nth-child(2) {
+  margin-left: 1280px;
+}
+.magazine .slide_box .left {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 800px;
+  height: 430px;
+}
+.magazine .slide_box .left img {
+  width: 100%;
+  height: 100%;
+}
+.magazine .slide_box .left div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  padding: 47px 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+.magazine .slide_box .left div h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 32px;
+}
+.magazine .slide_box .left div h3 span {
+  font-weight: normal;
+  display: block;
+}
+.magazine .slide_box .left div p {
+  padding: 9px 0 0;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+  line-height: 24px;
+}
+.magazine .slide_box .left div a {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  display: block;
+  width: 160px;
+  height: 45px;
+  border: 1px solid #fff;
+}
+
+.magazine .slide_box .right {
+  float: right;
+  width: 380px;
+  height: 430px;
+  background: #fff;
+  padding: 20px 20px 0;
+  box-sizing: border-box;
+}
+.magazine .slide_box .right li {
+  padding: 0 0 20px;
+}
+.magazine .slide_box .right li a {
+  width: 100%;
+  display: table;
+}
+.magazine .slide_box .right li a div {
+  display: table-cell;
+  position: relative;
+  padding: 0 0 0 100px;
+  font-size: 16px;
+  height: 82px;
+  vertical-align: middle;
+  color: #333;
+}
+.magazine .slide_box .right a strong {
+  display: block;
+  font-size: 13px;
+  color: #000;
+}
+.magazine .slide_box .right li a img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.magazine.slide .control {
+  bottom: 48px;
+}
+.magazine.slide .perv {
+  left: 50%;
+  margin: 26px 0 0 -640px;
+}
+.magazine.slide .next {
+  right: 50%;
+  margin: 26px -640px 0;
+}
+/* slide */
+
+.slide .perv,
+.slide .next {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 25px;
+  height: 47px;
+  transform: translateY(-50%);
+  background: url(./sp_com.png) no-repeat;
+  color: transparent;
+}
+.slide .perv {
+  left: 82px;
+  background-position: -128px -60px;
+}
+.slide .next {
+  right: 82px;
+  background-position: -158px -60px;
+}
+.slide .control {
+  position: absolute;
+  left: 0;
+  bottom: 55px;
+  text-align: center;
+  width: 100%;
+}
+.slide .control > div {
+  display: inline-block;
+  position: relative;
+  padding: 0 45px 0 0;
+}
+.slide .control a {
+  color: transparent;
+}
+
+.slide .control > div > div {
+  position: absolute;
+  right: 0;
+}
+.slide .control > div > div a {
+  background: url(./sp_com.png) no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  width: 8px;
+  height: 9px;
+  margin: 0 0 0 7px;
+  opacity: 0.5;
+}
+.slide .control > div > div a.on {
+  opacity: 1;
+}
+.slide .control > div > div a.play {
+  background-position: -108px -72px;
+}
+.slide .control > div > div a.pause {
+  background-position: -108px -60px;
+}
+
+.slide .control li {
+  padding: 0 3px;
+  display: inline-block;
+}
+.slide .control ul {
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+}
+.slide .control li.on a {
+  background: #fff;
+}
+.slide .control li a {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+.mediaNootice{
+  /* display: block; */
+  position: relative;  
+  height: 460px;
+  /* text-align: center; */
+}
+
+.mediaNootice h2{
+  font-size: 28px;
+  color: #000;
+  padding: 35px 0;
+  line-height: 100%;
+  text-align: center;
+}
+.mediaNootice.slide .control{
+    bottom: 54px;   
+}
+.mediaNootice.slide  .control li.on a{
+  background: #001829;
+  opacity: 1;
+}
+.mediaNootice.slide  .control li a { 
+  background: #001829;  
+  opacity: 0.5;
+}
+.mediaNootice.slide .perv {
+  color: #001829;
+  left: 50%;
+  top: 50%;
+  margin: 0 0 0 -680px; 
+  padding: 75px 0 0 0 ;
+  background-position: -321px -544px; 
+  color: transparent;
+}
+.mediaNootice.slide .next {
+  color: #001829;
+  right: 50%;
+  top: 50%;
+  margin: 0 -680px 0 0;
+  padding: 75px 0 0 0 ;
+  background-position: -351px -544px;
+  color: transparent;
+  
+}
+.mediaNootice ul{
+  font-size: 0;     
+  position: relative;
+  text-align: center;
+}
+.mediaNootice ul li{   
+  /* text-align: center; */
+  display: inline-block;
+  padding: 0 10px;
+  
+  
+}
+.mediaNootice a > div{
+  width: 280px;
+  font-size: 18px;
+  padding: 18px 0 0 0 ;
+}
